@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class maiorNumero {
+public class MaiorNumero {
     public static void main(String[] args) {
         Scanner  input = new Scanner(System.in);
         System.out.println("Digite um numero inteiro:");
