@@ -16,15 +16,28 @@ public class MelhorProduto {
 
         input.close();
 
-         if ( primeiroProduto > segundoProduto && terceiroProduto < primeiroProduto)
-            System.out.println("Escolha o produto de valor: " + primeiroProduto);
-        else if (segundoProduto < primeiroProduto && terceiroProduto < segundoProduto) {
-            System.out.println("Escolha o produto de valor: ") + segundoProduto;
+        if (primeiroProduto < segundoProduto && primeiroProduto < terceiroProduto) {
+            System.out.println("O produto de menor valor é : " + primeiroProduto);
+        } else if (segundoProduto < primeiroProduto && segundoProduto < terceiroProduto) {
+            System.out.println("O produto de menor valor é : " + segundoProduto);
+        } else {
+            System.out.println("O produto de menor valor é : " + terceiroProduto);
+        }
+
+         }}
 
 
 
 
 
 
-    }
-}
+
+
+
+
+
+
+
+
+
+
