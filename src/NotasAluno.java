@@ -13,8 +13,11 @@ public class NotasAluno {
 
         if (media < 7)
             System.out.println("Você foi Reprovado!");
-        else if (media > 7)
+        else if (media < 10)
             System.out.println("Você foi Aprovado");
+        else
+            System.out.println("Você foi Aprovado com distinção");
+
 
 
 
