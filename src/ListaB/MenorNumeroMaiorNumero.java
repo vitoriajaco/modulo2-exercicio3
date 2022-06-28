@@ -16,13 +16,15 @@ public class MenorNumeroMaiorNumero {
 
         }
 
-        int menorNumero = 0;
-        int maiorNumero = Integer.MAX_VALUE;
+        int maiorNumero = 0;
+        int menorNumero = Integer.MAX_VALUE;
 
         for (int i = 0; i < quantidadeDeNumeros; i++ ){
-             if (numeros.get(i) > maiorNumero) {
-                 maiorNumero = numeros.get(i);
-             }
+            if (numeros.get(i) > maiorNumero) {
+                maiorNumero = numeros.get(i);
+
+            }
+
              if (numeros.get(i) < menorNumero) {
               menorNumero = numeros.get(i);
             }
