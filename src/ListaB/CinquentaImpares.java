@@ -15,7 +15,9 @@ public class CinquentaImpares {
 
         }
         System.out.println(valorSoma);
+
         System.exit(1);
+
 
 
     }
